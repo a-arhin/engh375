@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	width: 960px;
+	margin: 0 auto;
+		font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+nav li{
+	display: inline;
+	padding-right: 20px;
+}
+p {
+	font-size: 15px;
+	padding: 0 20px;
+	color: #3E0A0B;
+}
+img {
+	border: dotted 2px rgb(227,64,53);
+	padding: 5px;
+	background: white;
+}
+img.ornament {
+	border: none;
+	float: left;
+}
+img.me {
+	display: block;
+	float: left;
+	margin: 0 20px 40px 0;
+}
+figcaption {
+	font-size: .7em;
+}
+figcaption.me {
+	position: fixed;
+	margin-top: 220px;
+}
+footer {
+	width: 100%;
+	background: rgb(227,64,53);
+	margin-top: 40px;
+}
+footer p {
+	color: white;
+}
